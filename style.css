@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.card-wrapper {
+  width: 1320px;
+  margin: 100px auto;
+  display: flex;
+  gap: 36px;
+}
+
+.single-card {
+  border: 1px solid gray;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.card-content .title {
+  font-size: 32px;
+  margin-bottom: 8px;
+}
+
+.card-content .description {
+  font-size: 15px;
+  margin-bottom: 12px;
+}
+
+.card-content .btn {
+  display: block;
+  padding: 8px 16px;
+  background-color: black;
+  color: white;
+  border: none;
+  width: 120px;
+  margin: 0 auto;
+}
+
+.single-card img {
+  width: 100%;
+}
